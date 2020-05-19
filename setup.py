@@ -28,8 +28,7 @@ def get_packages(package: str) -> list:
 
 setup(
     name="tartiflette-asgi",
-    # version=get_version("tartiflette_asgi"),
-    version="0.7.2",
+    version=get_version("tartiflette_asgi"),
     author="Florimond Manca",
     author_email="florimond.manca@gmail.com",
     description="ASGI support for the Tartiflette Python GraphQL engine",
